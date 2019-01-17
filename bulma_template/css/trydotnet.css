@@ -7,6 +7,7 @@
     letter-spacing: .15em; 
     animation: typing 3.5s steps(40, end), blink-caret .75s step-end infinite;
   }
+  /*animation header*/
   @keyframes typing{
       from { width: 0 }
       to { width: 100% }
@@ -18,6 +19,7 @@
   }
   .card {
     height: 100%;
+    text-align: center;
   }
   .footerbottom {
     position: absolute;
