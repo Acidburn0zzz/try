@@ -1,7 +1,7 @@
 /*trydotnet css*/
   .keyboard h1{
     overflow: hidden; 
-    border-right: .15em solid white; 
+    border-right: .15em solid #ffffff; 
     white-space: nowrap; 
     margin: 0 auto; 
     letter-spacing: .15em; 
@@ -14,21 +14,35 @@
   }
   @keyframes blinking-cursor{
       from, to { border-color: transparent }
-      50% { border-color: white;}
+      50% { border-color: #ffffff;}
 
   }
   .card {
     height: 100%;
     text-align: center;
   }
- /* .footerbottom {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    height: 20px;
-    padding: 40px;
-  }*/
+  /*Try .NET Run button*/
+  a.buttonrun{
+    display: inline-block;
+    padding: 0.3em 1.2em;
+    margin: 0 0.3em 0.3em 0;
+    border-radius: 2em;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Segoe UI',sans-serif;
+    font-weight: 300;
+    color: #ffffff;
+    background-color:#00cc00;
+    text-align: center;
+    transition: all 0.2s;
+  }
+  a.buttonrun:hover{
+    background-color:#00b200; 
+  }
+  /*Editor*/
+  /* editor style sheet here
+  */
+ /*footer*/
 .footerbottom,
 .push {
   position:fixed;
