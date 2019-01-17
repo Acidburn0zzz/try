@@ -1,0 +1,29 @@
+/*trydotnet css*/
+  .keyboard h1{
+    overflow: hidden; 
+    border-right: .15em solid white; 
+    white-space: nowrap; 
+    margin: 0 auto; 
+    letter-spacing: .15em; 
+    animation: typing 3.5s steps(40, end), blink-caret .75s step-end infinite;
+  }
+  @keyframes typing{
+      from { width: 0 }
+      to { width: 100% }
+  }
+  @keyframes blinking-cursor{
+      from, to { border-color: transparent }
+      50% { border-color: white;}
+
+  }
+  .card {
+    height: 100%;
+  }
+  .footerbottom {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 20px;
+    padding: 40px;
+  }
