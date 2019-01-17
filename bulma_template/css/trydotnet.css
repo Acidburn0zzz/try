@@ -21,11 +21,18 @@
     height: 100%;
     text-align: center;
   }
-  .footerbottom {
+ /* .footerbottom {
     position: absolute;
     right: 0;
     bottom: 0;
     left: 0;
     height: 20px;
     padding: 40px;
-  }
+  }*/
+.footerbottom,
+.push {
+  position:fixed;
+  bottom:0; 
+  left: 0;
+  height: 20px;
+}
